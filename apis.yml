@@ -1,7 +1,15 @@
 aid: optimity
 name: Optimity
-description: Optimity is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Optimity is a health and rewards platform (myoptimity.com) that helps millions of members live
+  healthier, wealthier, and longer through gamified micro-learning, wellness challenges, and
+  behavioral-science-backed coaching across physical activity, nutrition, mental health, social
+  connectedness, and financial wellness. Its consumer apps sync steps from Google Fit, Fitbit, and
+  Samsung Health, while its enterprise Engagement Operating System (EOS) offers white-labeled apps,
+  a management portal, rewards and nudge programs, and enterprise "API solutions & Tools" with
+  developer-friendly modules for insurers, employers, and communities. Optimity is a 500 Global
+  portfolio company. No public developer portal, API documentation, OpenAPI specification, or SDK
+  is currently published; API access is offered privately to enterprise customers.
 url: https://raw.githubusercontent.com/api-evangelist/optimity/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://cdn.prod.website-files.com/5eb989d9f3b5dd46d6e89e43/5ec553e8cea1d7cdd5fbb3d4_256x%20logo-01.png
 tags:
 - Company
+- Health
+- Wellness
+- Rewards
+- Gamification
+- Corporate Wellness
+- Insurance
+- Behavioral Science
+- Fitness
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,24 @@ maintainers:
 common:
 - type: Website
   url: https://myoptimity.com
+- type: Portal
+  url: https://portal.myoptimity.com/
+- type: Support
+  url: https://optimity.zendesk.com/hc/en-us
+- type: Blog
+  url: https://blog.myoptimity.com/
+- type: Pricing
+  url: https://www.myoptimity.com/enterprise-solutions/corporate-wellness/#corporate-wellness-pricing
+- type: SignUp
+  url: https://link.myoptimity.com/Ott1mIVA6sb
+- type: TermsOfService
+  url: https://www.myoptimity.com/terms
+- type: PrivacyPolicy
+  url: https://www.myoptimity.com/privacy
+- type: DomainSecurity
+  url: security/optimity-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
