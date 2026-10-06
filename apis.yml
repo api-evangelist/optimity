@@ -41,7 +41,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 image: https://cdn.prod.website-files.com/5eb989d9f3b5dd46d6e89e43/5ec553e8cea1d7cdd5fbb3d4_256x%20logo-01.png
 tags:
 - Company
@@ -60,6 +60,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.myoptimity.com/press
+  type: Blog
 - type: Website
   url: https://myoptimity.com
 - type: Portal
